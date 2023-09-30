@@ -67,3 +67,31 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.video-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the video container to maintain aspect ratio */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

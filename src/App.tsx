@@ -1,6 +1,6 @@
 // src/App.tsx
-import React from "react";
 import "./App.css";
+import LatestVideos from "./components/LatestVideos";
 import VideoList from "./components/VideoList";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Welcome to Ian's Accordian Music Archive</h1>
       <p>Here you will find the latest uploads that he has made.</p>
-      <VideoList />
+      <LatestVideos />
       <h2>About Ian</h2>
       <p>
         I am resident of Auckland NZ. I have been playing the Accordion since
@@ -24,6 +24,7 @@ function App() {
         playing they are made by Richard Noel (visit his channel
         www.noelaccordion.com) .
       </p>
+      <VideoList />
     </div>
   );
 }

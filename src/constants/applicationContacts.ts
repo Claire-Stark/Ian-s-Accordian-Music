@@ -4,7 +4,7 @@ interface IContstants {
 }
 
 const CONSTANTS: IContstants = {
-    API_KEY: 'YOUR-API-KEY',
+    API_KEY: 'AIzaSyBGOifwRWz-eacihlk77MFHsbcwWR_HM9Y',
     CHANNEL_ID: 'UCMipuKUlRYopDd-SVdwPzRQ'
 }
 
