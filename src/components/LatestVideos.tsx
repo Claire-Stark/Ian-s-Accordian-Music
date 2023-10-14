@@ -35,7 +35,7 @@ const VideoList: React.FC = () => {
 
   return (
     <div>
-      <h1>Latest Uploaded Videos</h1>
+      <h1>Latest Videos</h1>
       <div className="video-list">
         {videos.map((video) => (
           <div key={video.id.videoId}>
