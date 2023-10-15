@@ -6,7 +6,7 @@ import VideoList from "./components/VideoList";
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Ian's Accordian Music Archive</h1>
+      <h1>Welcome to Ian's Accordion Music Archive</h1>
       <p>Here you will find the latest uploads that he has made.</p>
       <LatestVideos />
       <h2>About Ian</h2>
