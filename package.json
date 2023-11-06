@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://claire-stark.github.io/Ian-s-Accordian-Music/",
+  "homepage": "https://www.ianmusic.co.nz/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
